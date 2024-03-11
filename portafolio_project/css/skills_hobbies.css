@@ -1,0 +1,141 @@
+.skills{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    background-color: #ffffff0a;
+    padding: 2rem;
+   /* display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #276168;
+    width: 100%;*/
+}
+
+.skills_titulo{
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 600px;
+    color: rgb(249, 249, 250);
+    margin-bottom: 10px;
+}
+
+.skills_line{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.skills_box{
+    position: relative;
+    width: 8rem;
+    height: 8rem;
+    background-color: #FFF;
+    opacity: 2;
+    border-radius: 12%;
+    padding: 1rem;
+    transition: .3s;
+    box-shadow: 2px 2px 2px #ccc;
+}
+
+.skills_box:hover{
+    box-shadow: 4px 4px 4px #ccc;
+}
+
+.skills_box ul{
+    position: absolute;
+    bottom: 1rem;  
+}
+
+.skills_text{
+    font-weight: bold;  
+    color: #182e30;
+    margin-top: .5rem;
+}
+
+/*hobbies*/
+
+.hobbies{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #ffffff0a;
+    padding: 2rem;
+   /* display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #276168;*/
+}
+
+.hobbies_titulo{
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 570px;
+    color: rgb(249, 249, 250);
+    margin-bottom: 10px;
+}
+
+.hobbies_line{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.hobbies_box{
+    position: relative;
+    width: 8rem;
+    height: 8rem;
+    background-color: #FFF;
+    border-radius: 12%;
+    padding: 1rem;
+    transition: .3s;
+    box-shadow: 2px 2px 2px #ccc;
+}
+
+.hobbies_box:hover{
+    box-shadow: 4px 4px 4px #ccc;
+}
+
+.hobbies_box ul{
+   position: absolute;
+   bottom: 1rem;
+}
+
+.hobbies_box img{
+    padding: 5px;
+    margin-left: -10px;
+}
+
+.hobbies_network_items{
+    font-weight: bold; 
+    color: #182e30;
+}
+
+@media  screen and (max-width: 840px) {
+    .skills , .hobbies{
+        width: 840px;   
+    }
+
+    .skills_titulo , .hobbies_titulo{
+        margin-left: 370px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    .skills_line , .hobbies_line{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .skills_box , .hobbies_box{
+        width: 25%;
+        height: 7rem;
+        margin: 1rem;
+    }
+}

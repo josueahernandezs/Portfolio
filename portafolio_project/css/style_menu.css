@@ -1,0 +1,150 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    color: whitesmoke;
+    background: rgb(107,107,107);
+    background: linear-gradient(0deg, rgba(107,107,107,1) 0%, rgba(36,36,36,1) 64%);
+}
+
+ul,
+li,
+a{
+    text-decoration: none;
+    color: #1c1c1c;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    background-color: #363535;
+}
+
+.contenido_menu{
+    width: 100%;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.logo{
+    max-width: 3rem;
+    height: 40px;
+    margin-left: 70px;
+}
+
+.menu_titulo{
+    margin-right: 370px;
+    padding-top: 20px;
+    color: white;
+}
+
+.menu_list{
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.link , .menu_list_item_contacto{
+    margin-right: 6px;
+    padding: 10px;
+	margin-bottom: 10px;
+	color: white;
+	background-color: #ffffff44;
+	text-decoration: none;
+	transition: .5s;
+	display: block;
+	border-bottom: 1px solid #ffffff44;
+    border-radius: 5px;
+}
+
+.link:hover , .menu_list_item_contacto:hover{
+    color: #1c1c1c;
+    background-color: #ececec;
+}
+
+.menu_list_item_contacto{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.abrir_menu, .cerrar_menu{
+    display: none;
+}
+
+@media screen and (max-width: 840px){
+    .abrir_menu ,
+    .cerrar_menu{
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .abrir_menu{
+        color: #ececec;
+    }
+
+    .cerrar_menu{
+        color: #ececec;
+    }
+
+
+    .nav{
+        display: flex;
+        opacity: 0;
+        visibility: hidden;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        margin-left: 640px;
+        bottom: 0;
+        background-color: #1c1c1c;
+        padding: 2rem;
+        box-shadow: 0 0 0 1000vmax rgba(0, 0, 0, .5);
+        transition: all .25s;
+    }
+
+    .nav.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .menu_list{
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .menu_list_item{
+        color: #ececec;
+    }
+
+    li,
+    a{
+    text-decoration: none;
+    color: #ececec;
+    }
+
+    header{
+        background-color: #363535;
+        width: 900px;
+    }
+
+    .menu_titulo{
+        margin-right: 500px;
+    }
+
+}

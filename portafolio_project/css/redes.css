@@ -1,0 +1,86 @@
+.redes{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 7%;
+    justify-content: space-between;
+    height: 368px;
+    width:  fixed 1136px;
+    align-items: center;
+    padding: 2rem;
+}
+
+.title_bio{
+    display: flex;
+    color: whitesmoke;
+    margin-left: 100px;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 61.05px;
+}
+
+.sub_tittle{
+    display: flex;
+    color: whitesmoke;
+    margin-left: 100px;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 50.05px;
+    margin-top: 20px;
+}
+
+.title_subsection{
+    margin-left: 100px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25.83px;
+}
+
+.title_network{
+    display: flex;  
+    margin-left: 100px;
+    margin-top: 20px;
+    align-items: flex-start;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.perfil_foto{
+    display: flex;
+    margin-right: 185px;
+}
+
+.imagen_perfil{
+    height: 270px;
+    width: 270px;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0px 10px 20px -8px rgba(0, 0, 0, 0.08);
+}
+
+@media screen and (max-width: 840px){
+    .redes{
+        padding-top: 3rem;
+        flex-direction: column;
+    }
+
+    .titulo_div{
+        margin: 30px 0px 0px 0px;
+    }
+
+    .title_bio{
+      font-weight: 700;
+      font-size: 23.22px;
+      Line-height: 40px;
+    }
+
+    .sub_tittle{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22.02px;
+        margin-top: 10px;
+    }
+
+    .perfil_foto{
+       margin-left: 100px;   
+    }
+}

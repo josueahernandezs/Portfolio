@@ -1,0 +1,126 @@
+.proyectos{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.proyectos_box{
+    display: flex;
+    flex-wrap: row;
+}
+
+.proyectos_img{
+    width: 380px;
+    height: 200px;
+    margin-left: 250px;
+    margin-top: 10px;
+    transition: .3s;
+    box-shadow: 2px 2px 2px  rgb(107,107,107);
+}
+
+.proyectos_img:hover{
+    box-shadow: 4px 4px 4px #000000;
+}
+
+.proyectos_info{
+    margin-left: 20px;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.proyectos_titulo{
+    font-weight: bold;
+}
+
+.proyectos_descripcion{
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.botones_demo{
+    background:  transparent;
+    border: 3px solid #000000;
+    color: #000000;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.botones_repo{
+    background:  white ;
+    border: 3px solid #000000;
+    color: #000000;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.botones_demo:hover{
+    transition: .3s;
+    background: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+.botones_repo:hover{
+    transition: .3s;
+    background: black;
+    color: #ffffff;
+}
+
+.proyectos_tech{
+    display: flex;
+    margin-top: 60px;
+    gap: 1rem;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(253, 253, 253);
+}
+
+@media screen and (max-width: 840px) {
+    .proyectos{
+        width: 840px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .titulo{
+        margin-left: 50px;
+    } 
+
+    .proyectos_box{
+        flex-wrap: wrap;
+    }
+
+    .proyectos_img{
+        width: 600px;
+        height: 100%;
+        margin-left: 150px;
+        border-radius: 0;
+    }
+
+    .proyectos_info{
+        width: 100%;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 35.83px;
+        gap: 1rem;
+        margin: 20px 0px 20px 50px;
+      /* margin: 50px 400px 60px 0px;*/
+    }
+
+    .botones{
+        font-size: 35px;
+        border-radius: 0;
+    }
+
+    .proyectos_tech{
+        display: none;
+    }
+
+}

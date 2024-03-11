@@ -1,0 +1,21 @@
+.footer{
+    background-color: black;
+    height: 80px;
+    margin-top: 0;
+    padding-top: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.footer_rodapie{
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 840px){
+    .footer{
+        width: 900px;
+        font-size: 25px;
+    }
+}
