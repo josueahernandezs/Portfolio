@@ -11,6 +11,7 @@ Diseño Responsivo: El portafolio está diseñado para ser completamente recepti
 Bootstrap: He utilizado Bootstrap para agilizar el proceso de desarrollo y garantizar un diseño limpio y consistente en todas las páginas. Las clases de Bootstrap me han permitido implementar un diseño basado en rejilla de forma eficiente.
 ScrollReveal: He integrado ScrollReveal para añadir animaciones sutiles al desplazarse por la página. Estas animaciones proporcionan una experiencia visualmente atractiva y hacen que la navegación por el sitio sea más interesante.
 Google Fonts: Para la tipografía, he utilizado Google Fonts para acceder a una amplia variedad de fuentes de alta calidad. Esto me ha permitido elegir fuentes que se ajusten perfectamente al estilo y la estética de mi portafolio.
+
 Tecnologías Utilizadas
 HTML5
 CSS3
